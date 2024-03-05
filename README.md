@@ -13,7 +13,7 @@ Pointer in C is just a variable that could store the address of the other variab
 
 ## Chúng ta sẽ bàn về 32-bit computer machine:
 
-- Giả sử: Computer memory có địa chỉ  từ 0x0000 0000 cho đến 0xFFFF FFFF. (Mỗi con số (0 - 9) or chữ (A - F) tương ứng với 4-bit) => Ở đây có 8 con số (or chữ) là 32-bit.
+- Giả sử: Computer memory có địa chỉ 0x0000 0000 đến 0xFFFF FFFF. `Mỗi` chữ số hoặc chữ cái trong địa chỉ hex (từ 0 đến F) tương ứng với 4 bit. Vì vậy, khi có 8 chữ số hoặc chữ cái trong một địa chỉ, tức là  địa chỉ dài 32 bit.
 
 ----- Cho 1 cái hình ví dụ ở đây cho dễ hình dung ------
 
