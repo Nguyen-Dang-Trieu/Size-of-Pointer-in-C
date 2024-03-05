@@ -15,11 +15,13 @@ Ta biết được `con trỏ dùng để lưu trữ địa chỉ` của 1 `bi�
 - Lấy ví dụ về 32-bit computer machine:
 Thì nó sẽ có địa chỉ `memory` từ: 0x0000 0000 cho đến 0xFFFF FFFF. (Mỗi con số 0 tương ứng với 4-bit: 0 0 0 0) => Ở đây có 8 con số 0 là 32-bit.
 
-Khi ta khai báo 1 biến bất kì thì nó sẽ được lưu trữ tại 1 vị trí trong bộ nhớ máy tính. (Địa chỉ của biến này nằm trong khoảng 0x0000 0000 -> 0xFFFF FFFF).
-
 Ảnh minh họa:
 <p align="center">
     <img src="./Images/memory_image.png" width="500px" alt="">
 </p>
 
+Khi ta khai báo 1 biến bất kì thì nó sẽ được lưu trữ tại 1 vị trí trong bộ nhớ máy tính. (Địa chỉ của biến này nằm trong khoảng 0x0000 0000 -> 0xFFFF FFFF).
 
+Giả sử: 
+- Khai báo: int A = 5 => địa chỉ của biến A là 0x0061 FF0C.
+- 
