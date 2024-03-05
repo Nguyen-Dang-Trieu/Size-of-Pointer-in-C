@@ -16,6 +16,7 @@ Pointer in C is just a variable that could store the address of the other variab
 - Giả sử:Computer memory có địa chỉ  từ 0x0000 0000 cho đến 0xFFFF FFFF. (Mỗi con số (0 - 9) or chữ (A - F) tương ứng với 4-bit) => Ở đây có 8 con số (or chữ) là 32-bit.
 
 ----- Cho 1 cái hình ví dụ ở đây cho dễ hình dung ------
+
 `Address: 0x0061 EFF8`
 <p align="center">
     <img src="./Images/Image_1.png" width="500px" alt="">
