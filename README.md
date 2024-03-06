@@ -62,4 +62,4 @@ Ví dụ: Ta có số quả cam được đánh dấu lần lượt là `0 0 6 1
     <img src="./Images/Image_3.png" width="500px" alt="">
 </p>
 
-`Note`: **Size of pointer** không phụ thuộc và kiểu dữ liệu của biến mà nó phụ thuộc vào kiến trúc hệ thống.
+`Note`: **Size of pointer** không phụ thuộc vào *kiểu dữ liệu* của biến mà nó phụ thuộc vào *kiến trúc hệ thống*.
