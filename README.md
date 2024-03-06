@@ -59,7 +59,7 @@ Ví dụ: Ta có số quả cam được đánh dấu lần lượt là `0 0 6 1
 => Vậy để cần chứa được 6 quả cam này ta cần 1 hộp đựng 8 ô trống để lưu trữ. Không thể dùng 1 hộp có số lượng < 8 để chứa được => Sẽ gây tràn.
 
 <p align="center">
-    <img src="./Images/Image_3.png" width="500px" alt="">
+    <img src="./Images/Image_orange.png" width="500px" alt="">
 </p>
 
 `Note`: **Size of pointer** không phụ thuộc vào *kiểu dữ liệu* của biến mà nó phụ thuộc vào *kiến trúc hệ thống*.
