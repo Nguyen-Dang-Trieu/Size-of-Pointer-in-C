@@ -1,4 +1,4 @@
-![image](https://github.com/Nguyen-Dang-Trieu/Size-of-Pointer-in-C/assets/121329547/a27a5e61-7b59-4983-a0ad-a1c97a79bcb6)# Size of Pointer in C
+# Size of Pointer in C
 
 Như khi ta học lập trình thì kích thước của từng loại kiểu dữ liệu được ghi rõ trong bảng dưới đây.
 <p align="center">
@@ -49,7 +49,7 @@ Giả sử:
                
      
   ~~~
-- Lúc này tại vị trí: 0x0061 FF0C có giá trị = 6.
+- Lúc này tại vị trí: `0x0061 FF0C` có giá trị = 6.
 <p align="center">
     <img src="./Images/Image_2.png" width="500px" alt="">
 </p>
