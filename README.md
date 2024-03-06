@@ -1,4 +1,4 @@
-# Size of Pointer in C
+![image](https://github.com/Nguyen-Dang-Trieu/Size-of-Pointer-in-C/assets/121329547/a27a5e61-7b59-4983-a0ad-a1c97a79bcb6)# Size of Pointer in C
 
 Như khi ta học lập trình thì kích thước của từng loại kiểu dữ liệu được ghi rõ trong bảng dưới đây.
 <p align="center">
@@ -7,13 +7,19 @@ Như khi ta học lập trình thì kích thước của từng loại kiểu d�
 
 Khi nói đến hệ thống máy tính `32-bit` hay `64-bit` nghĩa là muốn nói đến `số bit` có thể được `xử lý đồng thời` bởi bộ xử lí - processor (CPU) của hệ thống máy tính đó.
 
-**Problem:** *Có khi nào bạn tự hỏi liệu rằng kích thước của 1 con trỏ (dùng để lưu trữ địa chỉ) trong C là bao nhiêu hay không ?* 
+## **Problem:** *Có khi nào bạn tự hỏi liệu rằng kích thước của 1 con trỏ (dùng để lưu trữ địa chỉ) trong C là bao nhiêu hay không ?* 
 
 Pointer in C is just a variable that could store the address of the other variable. In C size of a pointer is not fixed as it depends on Word size of the processor. In general a 32-bit computer machine then size of a pointer would be 4 bytes while for a 64-bit computer machine, it would be 8 bytes.
 
 ## Chúng ta sẽ bàn về 32-bit computer machine:
 
-- Giả sử: Computer memory có địa chỉ 0x0000 0000 đến 0xFFFF FFFF. `Mỗi` chữ số hoặc chữ cái trong địa chỉ hex (từ 0 đến F) tương ứng với 4 bit. Vì vậy, khi có 8 chữ số hoặc chữ cái trong một địa chỉ, tức là  địa chỉ dài 32 bit.
+- Giả sử: Computer memory có địa chỉ 0x0000 0000 đến 0xFFFF FFFF.
+- Ảnh minh họa:
+<p align="center">
+    <img src="./Images/memory_image.png" width="500px" alt="">
+</p>
+
+-  `Mỗi` chữ số hoặc chữ cái trong địa chỉ hex (từ 0 đến F) tương ứng với 4 bit. Vì vậy, khi có 8 chữ số hoặc chữ cái trong một địa chỉ, tức là  địa chỉ dài 32 bit.
 
 ----- Cho 1 cái hình ví dụ ở đây cho dễ hình dung ------
 
@@ -24,10 +30,7 @@ Pointer in C is just a variable that could store the address of the other variab
 
 
 
-Ảnh minh họa:
-<p align="center">
-    <img src="./Images/memory_image.png" width="500px" alt="">
-</p>
+
 
 Khi ta khai báo 1 biến bất kì thì nó sẽ được lưu trữ tại 1 vị trí trong bộ nhớ máy tính. (Địa chỉ của biến này nằm trong khoảng 0x0000 0000 -> 0xFFFF FFFF).
 
@@ -46,7 +49,12 @@ Giả sử:
                
      
   ~~~
-- Lúc này tại vị trí: 0x0061 FF0C có giá trị = 6 (chèn hình vô chưa xong)
+- Lúc này tại vị trí: 0x0061 FF0C có giá trị = 6.
+<p align="center">
+    <img src="./Images/Image_2.png" width="500px" alt="">
+</p>
+
+
 - Để có thể lưu địa chỉ này vào con trỏ ptr_A thì nó phải có 4 byte để có thể chứa được để chỉ này.
 
 Để hình dung cho dễ hiểu là như này:
