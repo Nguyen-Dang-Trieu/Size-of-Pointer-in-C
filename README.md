@@ -14,7 +14,6 @@ Pointer in C is just a variable that could store the address of the other variab
 ## Chúng ta sẽ bàn về 32-bit computer machine:
 
 - Giả sử: Computer memory có địa chỉ 0x0000 0000 đến 0xFFFF FFFF.
-- Ảnh minh họa:
 <p align="center">
     <img src="./Images/memory_image.png" width="500px" alt="">
 </p>
@@ -27,9 +26,6 @@ Pointer in C is just a variable that could store the address of the other variab
 <p align="center">
     <img src="./Images/Image_1.png" width="500px" alt="">
 </p>
-
-
-
 
 
 Khi ta khai báo 1 biến bất kì thì nó sẽ được lưu trữ tại 1 vị trí trong bộ nhớ máy tính. (Địa chỉ của biến này nằm trong khoảng 0x0000 0000 -> 0xFFFF FFFF).
@@ -56,9 +52,14 @@ Giả sử:
 
 
 - Để có thể lưu địa chỉ này vào con trỏ ptr_A thì nó phải có 4 byte để có thể chứa được để chỉ này.
-
 Để hình dung cho dễ hiểu là như này:
-Ví dụ có số quả cam được đánh dấu lần lượt là 0 0 6 1 F F 0 C tượng trưng cho địa chỉ, tổng số lượng của số quả cam này là 6 tượng trương cho giá trị tại địa chỉ đó.
 
-Chèn hình vô
-=> Vậy để cần chứa được 6 quả cam này ta cần 1 hộp đựng 6 ô trống để lưu trữ. Không thể dùng 1 hộp có số lượng < 6 để chứa được => sẽ gây tràn.
+Ví dụ: Ta có số quả cam được đánh dấu lần lượt là `0 0 6 1 C F 5 1` tượng trưng cho `địa chỉ`, `tổng số lượng của số quả cam này là 8` tượng trương cho `giá trị tại địa chỉ đó`.
+
+=> Vậy để cần chứa được 6 quả cam này ta cần 1 hộp đựng 8 ô trống để lưu trữ. Không thể dùng 1 hộp có số lượng < 8 để chứa được => Sẽ gây tràn.
+
+<p align="center">
+    <img src="./Images/Image_3.png" width="500px" alt="">
+</p>
+
+`Note`: **Size of pointer** không phụ thuộc và kiểu dữ liệu của biến mà nó phụ thuộc vào kiến trúc hệ thống.
