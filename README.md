@@ -7,9 +7,9 @@ Như khi ta học lập trình thì kích thước của từng loại kiểu d�
 
 Khi nói đến hệ thống máy tính `32-bit` hay `64-bit` nghĩa là muốn nói đến `số bit` có thể được `xử lý đồng thời` bởi bộ xử lí - processor (CPU) của hệ thống máy tính đó.
 
-## **Problem:** *Có khi nào bạn tự hỏi liệu rằng kích thước của 1 con trỏ (dùng để lưu trữ địa chỉ) trong C là bao nhiêu hay không ?* 
+## Problem: Có khi nào bạn tự hỏi liệu rằng kích thước của 1 con trỏ (dùng để lưu trữ địa chỉ) trong C là bao nhiêu hay không ?
 
-Pointer in C is just a variable that could store the address of the other variable. In C size of a pointer is not fixed as it depends on Word size of the processor. In general a 32-bit computer machine then size of a pointer would be 4 bytes while for a 64-bit computer machine, it would be 8 bytes.
+*Pointer in C is just a variable that could store the address of the other variable. In C `size of a pointer` is not fixed as it `depends on Word size` of the `processor`. In general `a 32-bit` computer machine then `size of a pointer` would be `4 bytes` while for `a 64-bit` computer machine, it would be `8 bytes`.*
 
 ## Chúng ta sẽ bàn về 32-bit computer machine:
 
